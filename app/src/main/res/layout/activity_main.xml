@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a Dish Type"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_main_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Course" />
+
+    <Button
+        android:id="@+id/btn_side_dish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Side Dish" />
+
+    <Button
+        android:id="@+id/btn_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drinks" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Restaurant Order App</string>
+    <string-array name="dish_types">
+        <item>Main Course</item>
+        <item>Side Dish</item>
+        <item>Drink</item>
+    </string-array>
+    <string-array name="main_course_items">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Pasta</item>
+    </string-array>
+    <string-array name="side_dish_items">
+        <item>Fries</item>
+        <item>Salad</item>
+        <item>Garlic Bread</item>
+    </string-array>
+    <string-array name="drink_items">
+        <item>Coke</item>
+        <item>Water</item>
+        <item>Juice</item>
+    </string-array>
+</resources>

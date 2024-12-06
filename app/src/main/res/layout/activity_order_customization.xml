@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/dishTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/dishItemSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/sizeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <RadioButton android:id="@+id/sizeSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Small" />
+            <RadioButton android:id="@+id/sizeMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium" />
+            <RadioButton android:id="@+id/sizeLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cheeseCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Cheese"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/sauceCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Sauce"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/quantityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: $0"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Order" />
+
+    </LinearLayout>
+</ScrollView>
